@@ -73,3 +73,41 @@ font-weight: 700;
 .banner-img img{
   margin-bottom: -2px;
 }
+
+/* hot-deal section style */
+.hot-deal{
+  display: flex;
+background: rgba(229, 84, 115, 0.05);
+justify-content: space-around;
+align-items: center;
+padding: 100px;
+}
+.deal-text{}
+.deal-text h1{
+  color: #272727;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 20px;
+}
+.deal-text h1 span{
+  color: #E55473;
+}
+.deal-text p{
+  color: rgba(39, 39, 39, 0.60);
+margin: auto;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 80%;
+
+}
+.deal-btn{
+  margin-top: 20px;
+}
+.deal-img{}
+.deal-img img{
+  width: 80%;
+}
+.t-center{
+  text-align: center;
+}
