@@ -230,3 +230,34 @@ display: inline-block;
 font-weight: 400;
 
 }
+
+/* about area style */
+.about{
+  
+ 
+}
+.about-container{
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding:0 100px;
+background: rgba(39, 39, 39, 0.05);
+}
+.about-text{}
+.about-text h1{
+  font-size: 40px;
+}
+.about-text h1 span{
+  color: #E55473;
+}
+.about-text p{
+  margin-top: 20px;
+  color: #777;
+  line-height: 25px;
+}
+.about-img {}
+.about-img img{
+  
+}
