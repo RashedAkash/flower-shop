@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 *{
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: 'Open Sans', sans-serif;
+ font-family: 'Lato', sans-serif;
 }
 
 /* topbar style */
@@ -35,4 +35,41 @@
   font-weight: 600;
   cursor: pointer;
   text-decoration: none;
+}
+/* banner style */
+.banner{
+  display: flex;
+  background-color: #f5dee3;
+  padding: 5% 5% 0 5%;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.banner-text{}
+.banner-text h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: #272727;
+}
+.banner-text p{
+  width: 80%;
+  color: rgba(39, 39, 39, 0.60);
+margin: 20px 0;
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px;
+}
+.btn{
+  border-radius: 8px;
+background: #E55473;
+border: none;
+padding: 20px 40px;
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+}
+.banner-img{}
+.banner-img img{
+  margin-bottom: -2px;
 }
