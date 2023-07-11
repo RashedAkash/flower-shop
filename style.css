@@ -234,7 +234,8 @@ font-weight: 400;
 
 /* about area style */
 .about{
-  
+  background: rgba(39, 39, 39, 0.05);
+  padding: 100px 0;
  
 }
 .about-container{
@@ -244,7 +245,7 @@ font-weight: 400;
   justify-content: space-around;
   margin-top: 50px;
   padding:0 100px;
-background: rgba(39, 39, 39, 0.05);
+
 }
 .about-text{}
 .about-text h1{
