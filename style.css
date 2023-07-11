@@ -68,6 +68,7 @@ padding: 20px 40px;
 color: #FFF;
 font-size: 20px;
 font-weight: 700;
+cursor: pointer;
 }
 .banner-img{}
 .banner-img img{
@@ -253,7 +254,7 @@ background: rgba(39, 39, 39, 0.05);
   color: #E55473;
 }
 .about-text p{
-  margin-top: 20px;
+ margin: 20px 0;
   color: #777;
   line-height: 25px;
 }
